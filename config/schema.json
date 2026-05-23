@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "properties": {
+    "threads": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 100
+    },
+    "delay": {
+      "type": "number",
+      "minimum": 0
+    },
+    "timeout": {
+      "type": "number",
+      "minimum": 1000
+    },
+    "retries": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10
+    },
+    "backoff": {
+      "type": "number",
+      "minimum": 0
+    },
+    "messages": {
+      "type": "object",
+      "properties": {
+        "spam": { "type": "string" },
+        "del": { "type": "string" },
+        "test": { "type": "string" },
+        "info": { "type": "string" },
+        "nuke": { "type": "string" }
+      },
+      "required": ["spam", "del", "test", "info", "nuke"]
+    }
+  },
+  "required": ["threads", "delay", "timeout", "retries", "backoff", "messages"]
+}

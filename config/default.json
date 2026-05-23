@@ -1,0 +1,14 @@
+{
+  "threads": 100,
+  "delay": 0,
+  "timeout": 30000,
+  "retries": 3,
+  "backoff": 2000,
+  "messages": {
+    "spam": "hi",
+    "del": "DELETE! DELETE!! DELETE! DELETE!! DELEEEEEEETE!",
+    "test": "this a test :3",
+    "info": "hi from info",
+    "nuke": "hi"
+  }
+}
