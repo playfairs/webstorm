@@ -1,6 +1,6 @@
 # webstorm
 
-Webhook testing CLI tool.
+i made this dogshit tool bc smb in a vc went on about how they're gonna make a shitty tool so i did it before they could, fuck u london
 
 ## Install
 
